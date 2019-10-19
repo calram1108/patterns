@@ -1,0 +1,12 @@
+def uppertriangle_leftdownangledtriganle(num):
+	pat = input("enter a pattern :  ")
+	for i in range(0, num):
+		for r in range(0, num+1):
+			if (num -r) <= i:
+				print(pat, end=' ')
+			else:
+				print(end=' ')
+		print()
+	for i in range(num, 0, -1):
+ 		print( (num -i) * ' ' + pat * (i))
+uppertriangle_leftdownangledtriganle(int(input("Enter size : ")))
