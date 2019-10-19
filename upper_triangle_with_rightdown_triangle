@@ -1,0 +1,14 @@
+def ut_rdt(num):
+	pat = input("enter a pattern :  ")
+	for i in range(0, num):
+		for r in range(0, num+1):
+			if (num -r) <= i:
+				print(pat, end=' ')
+			else:
+				print(end=' ')
+		print()
+
+	for i in range(-num ,1):
+ 		print( num * ' ' + pat * (-i))
+
+ut_rdt(int(input("enter the num: " )))
