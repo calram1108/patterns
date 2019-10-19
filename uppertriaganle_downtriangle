@@ -1,0 +1,13 @@
+def uppertriaganle_downtriangle(num):
+	pat = input("enter a pattern :  ")
+	x=' '
+	for i in range(0, num):
+		for r in range(0, num+1):
+			if (num -r) <= i:
+				print(pat, end=' ')
+			else:
+				print(end=' ')
+		print()
+	for i in range(num, 0, -1):
+ 		print((num -i) * x + i * pat + i * pat + (num) * x)
+uppertriaganle_downtriangle(int(input("Enter size : ")))
