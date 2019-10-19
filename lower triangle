@@ -1,0 +1,6 @@
+def lt(num):
+	pat = input("Enter a character : ")
+	x=' '
+	for i in range(num, 0, -1):
+		print((num -i) * x + i * pat + i * pat + (num) * x)
+lt(int(input("Enter size : ")))
