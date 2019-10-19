@@ -1,0 +1,7 @@
+# function declaration
+
+def right_angeled_triangle(num):
+	pat = input("Enter a character : ")
+	for i in range(1, num + 1):
+		print(pat * i)
+right_angeled_triangle(int(input("Enter size : ")))
