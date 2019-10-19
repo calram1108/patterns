@@ -1,0 +1,6 @@
+def right_down_angeled_triangle(num):
+	pat = input("Enter a character : ")
+	for i in range(-num ,1):
+		print( pat * (-i))
+
+right_down_angeled_triangle(int(input("Enter size : ")))
